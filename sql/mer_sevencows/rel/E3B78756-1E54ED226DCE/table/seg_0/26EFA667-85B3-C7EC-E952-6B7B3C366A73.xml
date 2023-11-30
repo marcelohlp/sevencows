@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26EFA667-85B3-C7EC-E952-6B7B3C366A73" name="T_SSC_USUARIO">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>D18BC1B5-8B86-4651-E561-D421125B9167</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_usuario" id="D5A9A858-B977-DFC1-6400-3921E8EE602B">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>7DAB983B-529B-88F6-413E-05EBE3BED93C</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="477C9BDA-2853-DBCF-9DE6-9AD3611D1D20">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>112CFBB2-7978-0D47-3B05-F0A101B0B392</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="3E8CA709-65D4-00EE-6205-5952E9848EB4">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>AA368CB2-EF97-AB92-0D6D-DF6B9DE69E75</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="663607F7-23E0-CB5E-EB0F-327C8D50CD67">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>34C17773-227A-8127-2ED1-58DFCB118351</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="857C103D-1CA9-0E05-3B98-29522DD6031E" name="PK_SSC_USUARIO">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>F1464420-00C5-0361-A2BE-C2B08217B6C5</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5A9A858-B977-DFC1-6400-3921E8EE602B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="520FAAFA-298F-F044-5984-BDBB24C96526" name="UN_USUARIO_EMAIL">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:27:15 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="477C9BDA-2853-DBCF-9DE6-9AD3611D1D20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

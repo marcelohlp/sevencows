@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="294D8870-05A1-00F5-E0A4-5ADBEB2C56E9" name="T_SSC_DESPESA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>2B2FAE5A-8A3B-1C59-06AB-ED1B62882976</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_despesa" id="A4D1A16C-DCD4-538D-6509-05F40E96BC0A">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>C5544A22-AF53-D1FC-3701-6AF7F1516B8D</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuario" id="F76EDA44-A831-5454-1C10-EC2A4B149C7B">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>4C3A89B5-8455-E954-06E0-F2748063F9CE</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D7CA186-29AB-1E08-D957-4435C6A3E0EF" referredColumn="D5A9A858-B977-DFC1-6400-3921E8EE602B"/>
+</associations>
+</Column>
+<Column name="cd_frequencia" id="A016A3F5-4694-78E4-98D5-870EE4B8E45A">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>35ABAB98-35A5-967B-BDAB-4E47FED8B9DF</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A949329-DB8A-C9C9-F5F2-BA7FE5A40829" referredColumn="6D76F62E-8191-4555-D65F-642475C1CDE1"/>
+</associations>
+</Column>
+<Column name="ds_despesa" id="ABC8083C-C68E-928E-3132-794F4B7A467F">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>82F558A0-2B90-03C7-1939-9F18CC0F761F</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_despesa" id="997B2077-DFAD-F60E-9B99-3EC6E9E9E0EF">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>7E6E2BDD-4B07-9500-A17C-7D8AB7B45D85</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,14,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_despesa" id="A217A1D1-FE2F-6583-AB96-CB79C18F30C2">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>15DE1762-9491-B9D2-8357-A4DCB6243E65</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CA281D2-FBDA-C59C-739F-7E2B4BCCF3D0" name="PK_SSC_DESPESA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>ACFCA4A3-4193-C2B3-868A-26E665E11818</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4D1A16C-DCD4-538D-6509-05F40E96BC0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC13E5BA-5C5B-96B5-EE81-EE0693C753DA" name="FK_FREQUENCIA_DESPESA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>56906F37-C84C-0F19-452A-FF9DB5842F5B</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A016A3F5-4694-78E4-98D5-870EE4B8E45A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED757C2A-93BE-F289-B73F-928A8A0641FE" name="FK_USUARIO_DESPESA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>321333F0-DB32-8765-5B5A-1D987B4785A3</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F76EDA44-A831-5454-1C10-EC2A4B149C7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_DESPESA_VALOR" directorySegmentName="seg_0" id="E16A0392-235C-1E22-DE9A-6ABCCE488179">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:28:02 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<rule><![CDATA[vl_despesa >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="despesa_possui_frequencia" directorySegmentName="seg_0" id="56906F37-C84C-0F19-452A-FF9DB5842F5B">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:16:54 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<sourcePk>2EEB7AEA-18A2-1634-7A06-3AF760D113B8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6F31B0D7-5B12-CA6F-79F0-8C3AD7969705</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B2FAE5A-8A3B-1C59-06AB-ED1B62882976</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA8AC878-AABF-1DC5-7FFD-862017189C6F" name="T_SSC_RECEITA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:08:01 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_receita" id="B3F3775E-4BED-012C-3AA2-CDEE6185702B">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:08:12 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="F1931801-8C0E-34C0-5D2B-BFAEF67428AC">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:16:10 UTC</createdTime>
+<generatorID>25D69694-7ADE-9086-679E-DA6BB6AA1D52</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<referedAttribute>7DAB983B-529B-88F6-413E-05EBE3BED93C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_frequencia" id="074C7441-CDCE-8D00-7337-C10DE91D941E">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:17:57 UTC</createdTime>
+<generatorID>28E828FC-F869-0A5F-DACC-54F5675F4F94</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<referedAttribute>5D687A2E-5EE5-A7AC-31F5-8CFCB3D1A09A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_receita" id="5DD28BE8-058A-18CD-95AA-A7EDC2789D9C">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:08:30 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_receita" id="FECB3CCF-80C3-80DD-DD85-B18975B30F51">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:08:47 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,14,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_receita" id="00F4E0B7-F55E-84B0-A596-B858FE0D81BF">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:09:07 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDD97696-7296-BBDD-AC17-DA4065775BCC" name="T_SSC_RECEITA PK">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:08:29 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3F3775E-4BED-012C-3AA2-CDEE6185702B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D2E8A3F-A636-2F63-471A-495FDA037C34" name="T_SSC_RESERVA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>EAFD787B-493C-AB40-98A7-D741D7342436</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_reserva" id="0B640738-03BD-5EBB-76C8-DBF2682FAD67">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>93FDA264-F1E5-D88D-53B5-DAB583ED425D</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuario" id="39E9E07C-6718-F8A9-32A0-1160401D503F">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>BB45722E-B4E9-0304-AB2A-5B3058362318</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BE5FFD8-BBAD-722B-E164-A11B4BF75DA9" referredColumn="D5A9A858-B977-DFC1-6400-3921E8EE602B"/>
+</associations>
+</Column>
+<Column name="ds_reserva" id="04A92989-2F0C-25DF-8868-AD8E68D57605">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>052D73C3-B674-26DB-B3A4-31B0C1D6C698</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_reserva" id="3ED62429-029D-0D9A-5924-3FE9B159364E">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>494908D5-A935-382E-4B43-DFD55ACDF6E3</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,14,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_meta" id="E0126D87-3B20-789D-FEBD-E0E7C78F0DBD">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>9C7AA5ED-7ECA-18E9-F805-20C00478A412</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,14,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_objetivo" id="0E3D1B4F-B684-0DA7-DC91-95B78081F9E1">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>CF5B36BA-4188-866E-2F41-C14BCD6A1B6E</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EAFEF0E-E615-47A4-F007-5EBC075D1BCB" name="PK_SSC_RESERVA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>15BC4AE6-20F1-EE83-E79F-E74390F0E7FD</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B640738-03BD-5EBB-76C8-DBF2682FAD67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CD0D47E-7728-FCDB-F2AF-CD36C6FC17D1" name="FK_USUARIO_RESERVA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>DE3F37E8-5627-25E1-A07A-594E08BF037B</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39E9E07C-6718-F8A9-32A0-1160401D503F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_RESERVA_VALOR" directorySegmentName="seg_0" id="1BB880A6-5276-27A2-B4B1-E3C596F905EF">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:29:19 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<rule><![CDATA[vl_reserva >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_RESERVA_META" directorySegmentName="seg_0" id="214ECDE7-30EE-2DFF-C59C-41DDA2CA54AE">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:29:49 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<rule><![CDATA[vl_meta >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

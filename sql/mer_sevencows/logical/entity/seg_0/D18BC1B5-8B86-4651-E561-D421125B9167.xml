@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D18BC1B5-8B86-4651-E561-D421125B9167" name="T_SSC_USUARIO">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:02:24 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_usuario" id="7DAB983B-529B-88F6-413E-05EBE3BED93C">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:02:41 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="112CFBB2-7978-0D47-3B05-F0A101B0B392">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:03:04 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_usuario" id="AA368CB2-EF97-AB92-0D6D-DF6B9DE69E75">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:03:28 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_senha" id="34C17773-227A-8127-2ED1-58DFCB118351">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:03:42 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1464420-00C5-0361-A2BE-C2B08217B6C5" name="T_SSC_USUARIO PK">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:03:02 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DAB983B-529B-88F6-413E-05EBE3BED93C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

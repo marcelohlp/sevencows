@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FD88B51-7730-4FD6-F18C-B7AFF5B2ED77" name="T_SSC_RECEITA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>BA8AC878-AABF-1DC5-7FFD-862017189C6F</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_receita" id="CBD46754-BB9D-CEEA-ACCC-A4C61CA02EF4">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>B3F3775E-4BED-012C-3AA2-CDEE6185702B</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuario" id="F70F83A1-DED0-9251-C048-4123ACE8BBAF">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>F1931801-8C0E-34C0-5D2B-BFAEF67428AC</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC73037C-AC84-EC2F-E619-6260157A94F3" referredColumn="D5A9A858-B977-DFC1-6400-3921E8EE602B"/>
+</associations>
+</Column>
+<Column name="cd_frequencia" id="F995903D-233A-9792-54E4-19834DF1C1FA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>074C7441-CDCE-8D00-7337-C10DE91D941E</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01EA1336-E9EF-2132-3B7A-4039972BF026" referredColumn="6D76F62E-8191-4555-D65F-642475C1CDE1"/>
+</associations>
+</Column>
+<Column name="ds_receita" id="7B432A7B-D5A5-9D43-5FE2-8F09FC0243ED">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>5DD28BE8-058A-18CD-95AA-A7EDC2789D9C</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_receita" id="8DC9D852-672D-358C-3E11-4EAE533286F3">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>FECB3CCF-80C3-80DD-DD85-B18975B30F51</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,14,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_receita" id="99029FE7-5985-B224-0ED3-529ABC15EFC0">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>00F4E0B7-F55E-84B0-A596-B858FE0D81BF</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F38CCEF1-C936-2E45-1B0A-7F1A10FA2CA6" name="PK_SSC_RECEITA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>BDD97696-7296-BBDD-AC17-DA4065775BCC</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBD46754-BB9D-CEEA-ACCC-A4C61CA02EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12E9721B-CA38-534B-8ABF-0D74062818FF" name="FK_USUARIO_RECEITA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>25D69694-7ADE-9086-679E-DA6BB6AA1D52</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F70F83A1-DED0-9251-C048-4123ACE8BBAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C259032-1BB0-3059-C09A-4DCBCC42FE44" name="FK_FRQUENCIA_RECEITA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>28E828FC-F869-0A5F-DACC-54F5675F4F94</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F995903D-233A-9792-54E4-19834DF1C1FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_RECEITA_VALOR" directorySegmentName="seg_0" id="77B58C87-8961-06A3-F0F1-92921EEFCDFA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:28:50 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<rule><![CDATA[vl_receita >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

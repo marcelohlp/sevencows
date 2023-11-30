@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2A949329-DB8A-C9C9-F5F2-BA7FE5A40829" containerWithKeyObject="294D8870-05A1-00F5-E0A4-5ADBEB2C56E9" localFKIndex="DC13E5BA-5C5B-96B5-EE81-EE0693C753DA" name="FK_FREQUENCIA_DESPESA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:20:57 UTC</createdTime>
+<generatorID>56906F37-C84C-0F19-452A-FF9DB5842F5B</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<referredTableLongName>T_SSC_FREQUENCIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>60E30C01-EED0-2CF4-998E-A69C71339181</referredTableID>
+<keyObject>B587986E-A12A-24EC-203B-187A25CEB273</keyObject>
+<referredKeyID>B587986E-A12A-24EC-203B-187A25CEB273</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_frequencia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

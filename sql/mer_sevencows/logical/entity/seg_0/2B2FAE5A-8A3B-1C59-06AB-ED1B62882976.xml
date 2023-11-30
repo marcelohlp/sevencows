@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B2FAE5A-8A3B-1C59-06AB-ED1B62882976" name="T_SSC_DESPESA">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:04:13 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_despesa" id="C5544A22-AF53-D1FC-3701-6AF7F1516B8D">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:04:25 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="4C3A89B5-8455-E954-06E0-F2748063F9CE">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:15:48 UTC</createdTime>
+<generatorID>321333F0-DB32-8765-5B5A-1D987B4785A3</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<referedAttribute>7DAB983B-529B-88F6-413E-05EBE3BED93C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_frequencia" id="35ABAB98-35A5-967B-BDAB-4E47FED8B9DF">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:16:54 UTC</createdTime>
+<generatorID>56906F37-C84C-0F19-452A-FF9DB5842F5B</generatorID>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<referedAttribute>5D687A2E-5EE5-A7AC-31F5-8CFCB3D1A09A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_despesa" id="82F558A0-2B90-03C7-1939-9F18CC0F761F">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:05:25 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_despesa" id="7E6E2BDD-4B07-9500-A17C-7D8AB7B45D85">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:06:26 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,14,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_despesa" id="15DE1762-9491-B9D2-8357-A4DCB6243E65">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:06:59 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACFCA4A3-4193-C2B3-868A-26E665E11818" name="T_SSC_DESPESA PK">
+<createdBy>marce</createdBy>
+<createdTime>2023-11-09 13:05:24 UTC</createdTime>
+<ownerDesignName>mer_sevencows</ownerDesignName>
+<engineerTo>
+<item key="E3B78756-C71B-FDBD-E8A7-1E54ED226DCE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C5544A22-AF53-D1FC-3701-6AF7F1516B8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

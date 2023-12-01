@@ -29,14 +29,17 @@ foi utilizado o ``banco de dados relacional`` ``Oracle`` inteiramente implementa
 
 Primeiramente é preciso que o Apache Tomcat estejá configurado na sua IDE. Agora, faça o download de todo o código. Você vai precisar configurar o banco de dados. Então, abra o banco de dados, use o código DDL que está na pasta sql. Finalizado está etapa, você vai precisar configurar seu acesso; para isso abra o arquivo ConnectionManager.java e altere os valores para "url", "user" e "password" que estão vazios. Por fim, basta rodar o arquivo index.jsp com o servidor, realizar seu cadastro e organizar suas finanças.
 
-## Um pouco de documentação!
+## Telas do projeto
+### Receitas
+![Tela de receitas](https://github.com/marcelohlp/sevencows/assets/112910894/2d978dd8-4a27-436b-9b18-d3258132ce83)
+### Despesas
+![Tela de despesas](https://github.com/marcelohlp/sevencows/assets/112910894/a3194f4a-bb1d-4729-aaa2-60970c5fa7b4)
+### Relatório
+![Tela de relatorio](https://github.com/marcelohlp/sevencows/assets/112910894/b0c34613-a5bf-4959-99a1-4e99a7af2e01)
+
+## Por fim, um pouco de documentação!
 ### Diagrama de Classes
 ![Diagrama de classes](https://github.com/marcelohlp/sevencows/assets/112910894/00da9fee-92da-4566-a177-2b011c9d7e56)
 ### Modelo Entidade-Relacionamento
 ![MER Relacional](https://github.com/marcelohlp/sevencows/assets/112910894/66010861-412e-438f-83b8-0cb91574dbeb)
 
-
-
-<img src="https://github.com/marcelohlp/sevencows/assets/112910894/54e6c716-a49e-41dc-8983-7aaa984d1d6e" width="50%" alt="Tela de receitas">
-<img src="https://github.com/marcelohlp/sevencows/assets/112910894/54e6c716-a49e-41dc-8983-7aaa984d1d6e" width="33%" alt="Tela de receitas">
-<img src="https://github.com/marcelohlp/sevencows/assets/112910894/54e6c716-a49e-41dc-8983-7aaa984d1d6e" width="33%" alt="Tela de receitas">

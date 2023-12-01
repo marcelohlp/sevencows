@@ -15,7 +15,8 @@ disponibiliza relatórios que facilitam compreender á sua real saúde financeir
 
 ## Tecnologia:
 
-O sistema teve seu backend inteiramente desenvolvido com a linguagem Java. 
+O sitema teve sue backend totalmente desenvolvido em ``Java`` seguindo os princípios de ``Programação Orientada a Objetos``. Para o armazenamento de dados, 
+foi utilizado o ``banco de dados relacional`` inteiramente implementado com linguagem ``SQL``. A interação ficou por conta das ``Servlets``, responsáveis pelo controle da aplicação; trabalhando com  as solicitações ao banco e enviando informações as páginas ``JSP`` que permitiram o dinamismo da aplicação. Por fim, nada seria possível sem a ``IDE Eclipse`` que facilitou toda a implementação do código e ``Apache Tomcat``, servidor que permitiu tornar o projeto funcional.
 
 <img src="https://github.com/marcelohlp/sevencows/assets/112910894/54e6c716-a49e-41dc-8983-7aaa984d1d6e" width="50%" alt="Tela de receitas">
 <img src="https://github.com/marcelohlp/sevencows/assets/112910894/54e6c716-a49e-41dc-8983-7aaa984d1d6e" width="33%" alt="Tela de receitas">
